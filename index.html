@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluasi IPAS Kelas V — Tumbuhan, Sumber Kehidupan di Bumi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-decoration" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <header class="topbar no-print">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="brand-icon" aria-hidden="true">🌿</span>
+        <div>
+          <span class="brand-badge">Kurikulum Merdeka • IPAS Kelas V</span>
+          <h1>Tumbuhan, Sumber Kehidupan di Bumi</h1>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <button id="btn-kisi" class="btn btn-outline btn-sm" type="button">
+          📋 Kisi-Kisi &amp; Mode Guru
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- SCREEN 1: WELCOME / IDENTITAS -->
+    <section id="screen-start" class="card start-card">
+      <div class="start-hero">
+        <div class="hero-text">
+          <span class="pill">Bab 1 • Evaluasi Pembelajaran</span>
+          <h2>Uji Pemahamanmu tentang Dunia Tumbuhan!</h2>
+          <p class="subtitle">
+            Evaluasi ini mencakup materi <strong>Bagian Tubuh Tumbuhan</strong>,
+            <strong>Proses Fotosintesis</strong>, dan <strong>Perkembangbiakan Tumbuhan</strong>
+            untuk siswa kelas V SD.
+          </p>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="info-emoji" aria-hidden="true">📝</span>
+              <div>
+                <strong>20 Soal</strong>
+                <span>Pilihan Ganda</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-emoji" aria-hidden="true">⏱️</span>
+              <div>
+                <strong>30 Menit</strong>
+                <span>Waktu Pengerjaan</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-emoji" aria-hidden="true">🎯</span>
+              <div>
+                <strong>KKTP 75</strong>
+                <span>Nilai Ketuntasan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-illustration" aria-hidden="true">
+          <svg viewBox="0 0 280 260" class="plant-hero-svg" role="img" aria-label="Ilustrasi tumbuhan lengkap">
+            <defs>
+              <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#e0f7fa" />
+                <stop offset="100%" stop-color="#f1f8e9" />
+              </linearGradient>
+            </defs>
+            <rect x="8" y="8" width="264" height="244" rx="24" fill="url(#skyGrad)" />
+            <!-- Matahari -->
+            <circle cx="222" cy="52" r="24" fill="#fdd835" />
+            <g stroke="#fbc02d" stroke-width="3" stroke-linecap="round">
+              <line x1="222" y1="18" x2="222" y2="10" />
+              <line x1="222" y1="94" x2="222" y2="86" />
+              <line x1="188" y1="52" x2="180" y2="52" />
+              <line x1="264" y1="52" x2="256" y2="52" />
+              <line x1="198" y1="28" x2="192" y2="22" />
+              <line x1="252" y1="82" x2="246" y2="76" />
+              <line x1="246" y1="28" x2="252" y2="22" />
+              <line x1="192" y1="82" x2="198" y2="76" />
+            </g>
+            <!-- Tanah -->
+            <path d="M20 198 Q140 186 260 198 L260 244 Q260 252 252 252 L28 252 Q20 252 20 244 Z" fill="#8d6e63" />
+            <path d="M20 198 Q140 186 260 198 Q140 206 20 198 Z" fill="#6d4c41" />
+            <!-- Akar -->
+            <g stroke="#d7ccc8" stroke-width="3.5" fill="none" stroke-linecap="round">
+              <path d="M140 195 Q138 220 140 242" />
+              <path d="M139 206 Q116 216 98 232" />
+              <path d="M140 212 Q165 220 182 235" />
+              <path d="M124 214 Q112 228 108 238" stroke-width="2" />
+              <path d="M158 218 Q166 230 162 242" stroke-width="2" />
+            </g>
+            <!-- Batang -->
+            <path d="M140 196 Q137 140 140 82" stroke="#2e7d32" stroke-width="8" stroke-linecap="round" fill="none" />
+            <!-- Daun Kiri & Kanan -->
+            <path d="M138 152 Q92 142 82 114 Q116 112 138 144 Z" fill="#43a047" />
+            <path d="M138 148 Q112 132 90 120" stroke="#a5d6a7" stroke-width="2" fill="none" />
+            <path d="M141 132 Q190 120 202 92 Q166 90 141 124 Z" fill="#4caf50" />
+            <path d="M141 128 Q170 112 192 98" stroke="#c8e6c9" stroke-width="2" fill="none" />
+            <path d="M139 108 Q106 96 100 74 Q124 74 139 102 Z" fill="#66bb6a" />
+            <!-- Buah -->
+            <circle cx="164" cy="144" r="12" fill="#ff7043" />
+            <circle cx="160" cy="140" r="3" fill="#ffab91" />
+            <!-- Bunga -->
+            <g transform="translate(140, 74)">
+              <circle cx="0" cy="-16" r="10" fill="#f48fb1" />
+              <circle cx="15" cy="-5" r="10" fill="#f48fb1" />
+              <circle cx="10" cy="13" r="10" fill="#f48fb1" />
+              <circle cx="-10" cy="13" r="10" fill="#f48fb1" />
+              <circle cx="-15" cy="-5" r="10" fill="#f48fb1" />
+              <circle cx="0" cy="0" r="9" fill="#ffca28" />
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <form id="start-form" class="start-form">
+        <h3>Data Peserta Evaluasi</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="input-nama">Nama Lengkap <span class="req">*</span></label>
+            <input type="text" id="input-nama" required placeholder="Contoh: Siti Rahmawati" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="input-kelas">Kelas <span class="req">*</span></label>
+            <input type="text" id="input-kelas" required placeholder="Contoh: V-A" value="V" />
+          </div>
+          <div class="form-group">
+            <label for="input-absen">Nomor Absen <span class="req">*</span></label>
+            <input type="number" id="input-absen" required min="1" max="60" placeholder="Contoh: 12" />
+          </div>
+        </div>
+
+        <div class="options-row">
+          <label class="checkbox-label">
+            <input type="checkbox" id="opt-shuffle" />
+            <span>Acak urutan soal</span>
+          </label>
+          <label class="checkbox-label">
+            <input type="checkbox" id="opt-timer" checked />
+            <span>Aktifkan penghitung waktu (30 menit)</span>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-lg">
+            Mulai Evaluasi 🚀
+          </button>
+          <button type="button" id="btn-resume" class="btn btn-secondary btn-lg hidden">
+            Lanjutkan Evaluasi Sebelumnya
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- SCREEN 2: QUIZ / EVALUASI -->
+    <section id="screen-quiz" class="quiz-layout hidden">
+      <div class="quiz-main">
+        <div class="card quiz-header-card">
+          <div class="student-meta">
+            <span id="meta-student">Siswa: -</span>
+            <span id="meta-topic" class="topic-badge">Topik</span>
+          </div>
+          <div class="quiz-status-right">
+            <div id="timer-box" class="timer-box">
+              <span>⏱️</span>
+              <strong id="timer-display">30:00</strong>
+            </div>
+            <div class="progress-text">
+              <span id="progress-label">0 / 20 Terjawab</span>
+            </div>
+          </div>
+          <div class="progress-bar-wrap" aria-hidden="true">
+            <div id="progress-bar" class="progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <article class="card question-card">
+          <div class="question-top">
+            <span id="question-number" class="q-num">Soal 1 dari 20</span>
+            <span id="question-level" class="q-level">Pemahaman</span>
+          </div>
+
+          <div id="question-illustration" class="question-illustration hidden"></div>
+
+          <p id="question-text" class="question-text"></p>
+
+          <div id="options-list" class="options-list" role="radiogroup" aria-labelledby="question-text"></div>
+
+          <div class="question-footer">
+            <div class="footer-left">
+              <button id="btn-prev" type="button" class="btn btn-outline">← Sebelumnya</button>
+              <button id="btn-flag" type="button" class="btn btn-warning-outline">🏳️ Ragu-ragu</button>
+            </div>
+            <div class="footer-right">
+              <button id="btn-next" type="button" class="btn btn-primary">Selanjutnya →</button>
+              <button id="btn-finish" type="button" class="btn btn-success hidden">Selesai &amp; Nilai ✓</button>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="quiz-sidebar">
+        <div class="card nav-card">
+          <h3>Navigasi Soal</h3>
+          <div id="question-nav" class="question-nav"></div>
+          <div class="nav-legend">
+            <span><i class="dot dot-answered"></i> Terjawab</span>
+            <span><i class="dot dot-flagged"></i> Ragu-ragu</span>
+            <span><i class="dot dot-empty"></i> Belum dijawab</span>
+          </div>
+          <button id="btn-submit-sidebar" type="button" class="btn btn-success btn-block">
+            Kumpulkan Jawaban
+          </button>
+        </div>
+      </aside>
+    </section>
+
+    <!-- SCREEN 3: HASIL & PEMBAHASAN -->
+    <section id="screen-result" class="hidden">
+      <div class="card result-summary-card">
+        <div class="result-header">
+          <div>
+            <span class="pill">Hasil Evaluasi IPAS Kelas V</span>
+            <h2 id="result-title">Selamat, Kamu Telah Menyelesaikan Evaluasi!</h2>
+            <p id="result-student-info" class="subtitle"></p>
+          </div>
+          <div class="score-circle" id="score-circle">
+            <span class="score-label">Nilai</span>
+            <strong id="result-score">0</strong>
+            <span id="result-predicate" class="score-predicate">-</span>
+          </div>
+        </div>
+
+        <div class="result-stats">
+          <div class="stat-box">
+            <span>Jawaban Benar</span>
+            <strong id="stat-correct">0 / 20</strong>
+          </div>
+          <div class="stat-box">
+            <span>Jawaban Salah</span>
+            <strong id="stat-wrong">0</strong>
+          </div>
+          <div class="stat-box">
+            <span>Status KKTP (75)</span>
+            <strong id="stat-kktp">-</strong>
+          </div>
+          <div class="stat-box">
+            <span>Durasi Pengerjaan</span>
+            <strong id="stat-duration">-</strong>
+          </div>
+        </div>
+
+        <div class="topic-breakdown">
+          <h3>Analisis Capaian per Topik</h3>
+          <div id="topic-bars" class="topic-bars"></div>
+        </div>
+
+        <div class="result-actions no-print">
+          <button id="btn-print-result" type="button" class="btn btn-outline">🖨️ Cetak / Simpan PDF</button>
+          <button id="btn-retry" type="button" class="btn btn-primary">🔄 Kerjakan Ulang</button>
+        </div>
+      </div>
+
+      <div class="card review-card">
+        <div class="review-header">
+          <h3>Pembahasan Setiap Soal</h3>
+          <div class="review-filter no-print">
+            <button type="button" class="filter-btn active" data-filter="all">Semua</button>
+            <button type="button" class="filter-btn" data-filter="wrong">Salah Saja</button>
+            <button type="button" class="filter-btn" data-filter="correct">Benar Saja</button>
+          </div>
+        </div>
+        <div id="review-list" class="review-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL KISI-KISI & MODE GURU -->
+  <div id="modal-kisi" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-kisi-title">
+    <div class="modal-backdrop no-print" id="modal-backdrop"></div>
+    <div class="modal-dialog card">
+      <div class="modal-header">
+        <div>
+          <span class="pill">Perangkat Guru</span>
+          <h2 id="modal-kisi-title">Kisi-Kisi &amp; Kunci Jawaban Evaluasi IPAS Kelas V</h2>
+        </div>
+        <button id="btn-close-kisi" type="button" class="btn-icon no-print" aria-label="Tutup">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          Tabel berikut memuat pemetaan Tujuan Pembelajaran (TP), topik materi, level kognitif,
+          kunci jawaban, serta ringkasan indikator soal untuk Bab 1: <strong>Tumbuhan, Sumber Kehidupan di Bumi</strong>.
+        </p>
+        <div class="table-wrap">
+          <table class="kisi-table">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Topik Materi</th>
+                <th>Indikator Soal</th>
+                <th>Level</th>
+                <th>Kunci</th>
+              </tr>
+            </thead>
+            <tbody id="kisi-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="modal-footer no-print">
+        <button id="btn-print-kisi" type="button" class="btn btn-outline">🖨️ Cetak Kisi-Kisi</button>
+        <button id="btn-close-kisi-bottom" type="button" class="btn btn-primary">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL KONFIRMASI SELESAI -->
+  <div id="modal-confirm" class="modal hidden no-print" role="dialog" aria-modal="true" aria-labelledby="modal-confirm-title">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog modal-sm card">
+      <h3 id="modal-confirm-title">Kumpulkan Jawaban?</h3>
+      <p id="confirm-message"></p>
+      <div class="confirm-actions">
+        <button id="btn-confirm-cancel" type="button" class="btn btn-outline">Periksa Lagi</button>
+        <button id="btn-confirm-submit" type="button" class="btn btn-success">Ya, Kumpulkan</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer no-print">
+    <div class="container">
+      <p>Evaluasi Pembelajaran IPAS Kelas V SD • Bab 1: Tumbuhan, Sumber Kehidupan di Bumi</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
